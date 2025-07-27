@@ -51,7 +51,7 @@ fi
 
 echo "✅ Setup complete! Run your script with:"
 if [[ "$use_venv" =~ ^[Yy]$ ]]; then
-    echo "source venv/bin/activate && python your_script.py"
+    echo "source venv/bin/activate && python ytmp3install.py"
 else
-    echo "python your_ytmp3installer.py"
+    echo "python ytmp3install.py"
 fi
